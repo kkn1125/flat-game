@@ -135,7 +135,7 @@ export class Player {
   // }
   drawFixed(centerX: number) {
     ctx.fillStyle = "blue";
-    const halfSize = this.width / 2;
+    // const halfSize = this.width / 2;
     ctx.fillRect(this.x + centerX, this.y, this.width, this.height);
   }
 
